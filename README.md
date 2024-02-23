@@ -1,16 +1,9 @@
 ![](https://github.com/getzenith/.github/blob/main/Zenith_Banner_Report.jpg)
 # Zenith Hazard Report
 
-This website is an integral part of the Zenith Go Hazard Detection System, designed to display captured images and hazard analysis results. Below is an explanation of the website's components and dependencies.
+This website is an integral part of the [Zenith Go](https://github.com/getzenith/zenith-go/tree/main) Hazard Detection System, designed to display captured images and hazard analysis results. Below is an explanation of the website's components and dependencies.
 
-## File Structure
-
-The website comprises the following files:
-
-1. **index.html**: The main HTML file for the website layout and structure.
-2. **style.css**: CSS file containing styles for the website's appearance and layout.
-3. **logo.svg**: SVG file serving as the logo for the Hazard Detection System.
-4. **background.jpg**: Background image used in the website design.
+This initiative is part of the UXDG-490 course curriculum offered by the Savannah College of Art and Design. The project's objective is to conceptualize solutions for humanitarian needs and realize them through the process of prototyping.
 
 ## Functionality
 The website's functionality is geared towards providing a detailed insight into hazard detection outcomes and their explanations, derived from the GPT-4 Vision Preview model. The following features are incorporated:
