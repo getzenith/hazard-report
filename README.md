@@ -1,1 +1,1 @@
-# hazard-report
+# Hazard Report
