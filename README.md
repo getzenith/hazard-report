@@ -1,8 +1,9 @@
+![](https://github.com/getzenith/.github/blob/main/Zenith_Banner_Report.jpg)
 # Zenith Hazard Report
 
 This website is an integral part of the Zenith Go Hazard Detection System, designed to display captured images and hazard analysis results. Below is an explanation of the website's components and dependencies.
 
-## Files
+## File Structure
 
 The website comprises the following files:
 
