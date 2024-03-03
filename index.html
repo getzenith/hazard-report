@@ -70,14 +70,14 @@ function fetchJSON() {
         .then(response => response.json())
         .then(data => {
             // Check if hazard condition is "yes" or "no"
-            if (data.hazard.toLowerCase() === 'yes') {
+            if (data.answer.toLowerCase() === 'yes') {
                 document.getElementById('status').innerText = '􀇾 Hazard Condition Detected';
                 document.getElementById('reason').innerText = data.reason;
-            } else if (data.hazard.toLowerCase() === 'no') {
+            } else if (data.answer.toLowerCase() === 'no') {
                 document.getElementById('status').innerText = 'Safe Condition';
                 document.getElementById('reason').innerText = 'No active Hazard is recognized';
             } else {
-                console.error('Invalid value for hazard:', data.hazard);
+                console.error('Invalid value for answer:', data.answer);
             }
         })
         .catch(error => console.error('Error fetching JSON:', error));
